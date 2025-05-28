@@ -1,6 +1,5 @@
 import { PasswordValidationError, getWords, includes, isBasedOn } from "./util";
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const cracklib = ({ dict = "/usr/share/dict/words", minLength = 8, loose = false } = {}): ((
   w?: string
 ) => string | Error) => {
