@@ -108,3 +108,4 @@ x/
 .nyc_output
 /lib
 /cracklibjs*.tgz
+/test.json

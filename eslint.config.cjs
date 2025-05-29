@@ -1,8 +1,7 @@
 const rulesOverrides = {
   "array-bracket-spacing": "off",
   "@typescript-eslint/no-confusing-void-expression": "off",
-  "comma-dangle": "off",
-  "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
+  "@typescript-eslint/comma-dangle": "off",
   "@typescript-eslint/strict-boolean-expressions": "off",
 };
 const love = require("eslint-config-love");
